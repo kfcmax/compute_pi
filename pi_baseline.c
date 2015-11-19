@@ -17,7 +17,6 @@ double compute_pi(size_t dt)
 int main(void)
 {
 	printf("pid: %d\n", getpid());
-	sleep(20);
 	clock_t start_time, end_time;
 	double pi;
 	start_time = clock();		
